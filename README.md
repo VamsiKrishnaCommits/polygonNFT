@@ -18,7 +18,6 @@ This smart contract has all the functions that make it ERC721 compliant and it i
 
 It has the below functions implemented from scratch :
 ``` function
-
 balanceOf(owner)
 
 ownerOf(tokenId)
