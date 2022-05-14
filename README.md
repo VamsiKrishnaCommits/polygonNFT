@@ -13,3 +13,16 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+This smart contract has all the functions that make it ERC721 compliant and it is fully documented.
+
+It additionally has two primary functionality apart from other standard functions :
+``
+addListing (uint256 price , uint256 tokenId) -  which helps users list their NFT for a price they want to sell
+
+purchase (uint256 tokenId) - which helps users purchase the NFT
+
+``
+
+This smart contract is written using best practices that optimise for gas.
+
