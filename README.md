@@ -16,6 +16,28 @@ npx hardhat help
 
 This smart contract has all the functions that make it ERC721 compliant and it is fully documented.
 
+It has the below functions implemented from scratch :
+``` function
+
+balanceOf(owner)
+
+ownerOf(tokenId)
+
+safeTransferFrom(from, to, tokenId)
+
+transferFrom(from, to, tokenId)
+
+approve(to, tokenId)
+
+getApproved(tokenId)
+
+setApprovalForAll(operator, _approved)
+
+isApprovedForAll(owner, operator)
+
+safeTransferFrom(from, to, tokenId, data)
+```
+
 It additionally has two primary functionality apart from other standard functions :
 ``` function
 addListing (uint256 price , uint256 tokenId) -  which helps users list their NFT for a price they want to sell
