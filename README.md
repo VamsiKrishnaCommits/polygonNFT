@@ -1,6 +1,6 @@
-# Basic Sample Hardhat Project
+# Homemade ERC721
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a homemade ERC721 with additional functionalities such as listing your NFT for sale and purchasing . It comes with a  contract, a test for that contract, a script that deploys that contract.
 
 Try running some of the following tasks:
 
